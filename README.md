@@ -127,7 +127,7 @@ for (int i = 1; i <= count; i++) {}
 For loops are syntactically daunting in C#, but they are incredibly powerful once you understand them. They allow us to repeatedly execute code with slightly different information or on different objects. Each for loop has 3 components, separated by semicolons:
 1. The "initializer" which creates a variable the loop will use to track its state
 2. The "condition" which the loop uses to determine when it should stop iterating
-3. The "iterator" which is executed once on every iteration and is usually used to increment the initializers variable
+3. The "iterator" which is executed once on every iteration and is usually used to increment the initializer's variable
 
 ```cs
 for ([1]int i = 1; [2] i <= count; [3]i++)
