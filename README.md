@@ -112,8 +112,8 @@ List<string> strings = new();
 strings.Add("Hello");
 strings.Add("World");
 
-Debug.Log(strings[0]) // logs: Hello
-Debug.Log(strings[1]) // logs: World
+Debug.Log(strings[0]) // Hello
+Debug.Log(strings[1]) // World
 ```
 Remember that the number inside the [square brackets] is the INDEX, not the item's ranking in the list, so it starts at ZERO, not at one.
 
