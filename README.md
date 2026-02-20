@@ -99,7 +99,7 @@ Because we need to store a lot of offset values, and we won't know how many unti
 ```cs
 List<float> offsets = new();
 ```
-Notice the `Generic<T>` notation like we see with `GetComponent<T>()`. This syntax allows us to pass any datatype in as `T` so that we don't need a different method or object for every possible datatype. In this case, it lets us use type, `List<T>` from the `System.Collections.Generic` namespace, for any type of data we might want a list of. In this example, we are storing floating-point values, so we initialize a list of floats as `List<float>`. Since we specify the type right off the bat, the `new()` keyword already knows to make a new `List<float>`.
+Notice the `Generic<T>` notation like we see with `GetComponent<T>()`. This syntax allows us to pass any datatype in as `T` so that we don't need a different method or object for every possible datatype. In this case, it lets us use one type, `List<T>` from the `System.Collections.Generic` namespace, for any type of data we might want a list of. In this example, we are storing floating-point values, so we initialize a list of floats as `List<float>`. Since we specify the type right off the bat, the `new()` keyword already knows to make a new `List<float>`.
 
 We also call the `Add()` method of the `List<T>` type on **line 54**:
 ```cs
