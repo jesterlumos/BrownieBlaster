@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
         count  = (int) countSlider.value;
         spread =       spreadSlider.value;
 
-        countTMP.text  = $"Count:  {count}";
+        countTMP.text  = $"Count: {count}";
         spreadTMP.text = $"Spread: {(int) spread}";
     }
     #endregion
